@@ -11,84 +11,109 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <header class="header roboto-bold ">
-    <div class="cabecalho ">
-      <h1 class="">Título Principal</h1>
-      <h5 class="roboto-light" >Titulo menor</h5>
-      <button type="button" class="robot-light">Primary</button>
-    </div>
+<body class="max-w-screen-xl mx-auto">
+  <header class="bg-white">
+    <nav class="mx-auto hidden max-w-7xl items-center justify-between p-6 sm:flex lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="min-h-20 max-w-16" src="../assets/image/logo.avif" alt="LOgo">
+        </a>
+      </div>
+      <div class=" lg:flex lg:gap-x-12">
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Sobre</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Serviços</a>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Valores</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      </div>
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    
   </header>
-  <main class="main">
-    <div class="cards">
-      <div class="carde" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  <section class="min-h-80 one text-center py-6">
+    <div class="">
+      <h1 class="my-4">Brilho e Estilo: Manicure, Alongamento e Pintura em Gel</h1>
+      <p class=" my-20 px-20 text-justify" >
+        Descubra a arte da manicure elevada a um novo patamar. Oferecemos 
+        serviços que não apenas transformam suas unhas, mas também elevam sua confiança e estilo. Profissional dedicada e produtos de alta 
+        qualidade, que garante resultados duradouros e impecáveis. Explore a galeria de designs inovadores e agende hoje mesmo sua sessão para 
+        experimentar a beleza e a sofisticação das unhas em soft-gel.
+        Prepare-se para impressionar com unhas impecáveis que refletem sua personalidade única e brilham em qualquer ocasião.</p>
+      <button type="button" class="bg-green-500 p-7 rounded-full ">Whatsapp</button>
+    </div>
+  </section>
+  <main class="">
+    <div class="w-full flex flex-col lg:flex-row">
+      <img class="items-start" src="../assets/image/close-up-de-garrafas-com-derramado-unha-polimento_23-2148194791.jpg" alt="">
+      <div class="w-full flex flex-col items-center md:items-end">
+        <div class="m-10" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <a href="#" class="btn ">Go somewhere</a>
+          
         </div>
-        <a href="#" class="btn ">Go somewhere</a>
         
-      </div>
+        <div class="" style="width: 18rem;">
+          <div class="roboto-light">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <a href="#" class="btn ">Go somewhere</a>
+          
       
-      <div class="carde roboto-light text-end" style="width: 18rem;">
-        <div class="roboto-light">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
-        <a href="#" class="btn ">Go somewhere</a>
-        
-      </div>
-      
-      <div class="carde roboto-light " style="width: 18rem;">
-        <div class="card-bod">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          
+          <div class="m-10" style="width: 18rem;">
+            <div class="card-bod">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <a href="#" class="btn ">Go somewhere</a>
+            
         </div>
-        <a href="#" class="btn ">Go somewhere</a>
-        
-      </div>
+      </div>  
     </div>
 
-    <h1>Serviços</h1>
-    <div class="services">
-      <div class ="service">
-        <img  src="./assets/image/icons8-alicate-48.png" alt="">
-        <p>serviço</p>
+    
+    <div class="border w-full">
+      <h1 class="text-center my-20">Serviços</h1>
+      <div class="grid grid-cols-2 grid-rows-2 gap-4 p-8 rounded-lg shadow-lg">
+        <div class ="text-center flex m-10 flex-col items-center">
+          <img class="w-20 m-10" src="../assets/image/icons8-alicate-48.png" alt="">
+          <p>Curticulas</p>
+        </div>
+        <div class ="flex flex-col items-center w-full ">
+          <img class=" m-10" src="../assets/image/icons8-esmalte-96.png" alt="">
+          <p>Pintura</p>
+        </div>
+        <div class ="text-center flex flex-col items-center">
+          <img class="m-10" src="../assets/image/icons8-pedicure-100.png" alt="">
+          <p>Escalda pés</p>
+        </div>
+        <div class ="text-center flex flex-col items-center">
+          <img class="m-10" src="../assets/image/icons8-unhas-100.png" alt="">
+          <p>Alongamento em Gel</p>
+        </div ">
       </div>
-      <div class ="service">
-        <img  src="./assets/image/icons8-esmalte-96.png" alt="">
-        <p>serviço</p>
-      </div>
-      <div class ="service">
-        <img src="./assets/image/icons8-pedicure-100.png" alt="">
-        <p>serviço</p>
-      </div>
-      <div class ="service">
-        <img  src="./assets/image/icons8-unhas-100.png" alt="">
-        <p>serviço</p>
-      </div ">
-    </div>
 
-    <section class="text roboto-light">
-      <h2 roboto-bold>Titulo Grande</h2>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, quos veniam temporibus quibusdam maiores nam quis at.</P>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, quos veniam temporibus quibusdam maiores nam quis at.</P>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, quos veniam temporibus quibusdam maiores nam quis at.</P>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, quos veniam temporibus quibusdam maiores nam quis at.</P>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, quos veniam temporibus quibusdam maiores nam quis at.</P>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, quos veniam temporibus quibusdam maiores nam quis at.</P>
-    </section>
-
-    <section  class="text roboto-light">
-      <h2>Titulo Grande</h2>
-      <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias nisi, iusto dolores est, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed minima magnam accusamus pariatur id suscipit officia blanditiis sit deleniti quod, necessitatibus repellendus fugit asperiores consequuntur dolor omnis. Beatae, recusandae tempore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio perspiciatis, fuga officiis fugit saepe neque et beatae, quod cumque, nulla accusamus iusto rem. Corporis necessitatibus nihil laboriosam nulla officiis alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem velit voluptatibus id neque quas provident praesentium est? Excepturi in consequuntur eveniet quam quis perspiciatis aperiam sit dolore maiores facere. quos veniam temporibus quibusdam maiores nam quis at.</P>
+    <section class="">
+      <h2 class=" text-center m-20 font-extrabold text-7xl">Descubra a Excelência em Cuidados com as Unhas</h2>
+      <p class="p-10 text-center text-xl">Se você busca mais do que simples serviços de manicure, mas sim uma experiência de luxo e cuidado excepcional para suas mãos, você veio ao lugar certo. Com anos de experiência e um amor genuíno pela arte da manicure, cada um dos meus cursos caros e extensiva experiência me capacitaram a oferecer não apenas um serviço, mas uma verdadeira jornada de bem-estar para você.</p>
+      <p class="p-10 text-center text-xl">Ao longo da minha carreira, tenho tido o privilégio de atender clientes incríveis como você, e é com paixão que dedico cada dia ao aperfeiçoamento das minhas técnicas e ao aprimoramento do meu atendimento. Cada unha é uma tela em branco, pronta para receber os cuidados meticulosos que transformam não apenas a aparência, mas também o seu estado de espírito.<p>
+      <p class="p-10 text-center text-xl">Ao confiar em mim, você não está apenas escolhendo uma manicure; está optando por um compromisso com a qualidade, a dedicação e o cuidado que só uma verdadeira amante da profissão pode oferecer. Desde o momento em que você entra até o momento em que sai com um sorriso satisfeito, cada detalhe é cuidadosamente planejado para garantir que sua experiência seja nada menos que extraordinária.
+      <p class="p-10 text-center text-xl">Venha experimentar o que significa ser verdadeiramente mimada com um serviço que não se limita ao estético, mas sim que se preocupa com a sua total satisfação e bem-estar. Agende sua consulta hoje e descubra o porquê de tantos clientes escolherem não apenas voltar, mas também recomendar meus serviços para amigos e familiares.</p>
+      <p class="p-10 text-center text-xl">Estou ansiosa para conhecê-la e fazer parte da sua jornada de beleza e autoestima.</p>
+      
     </section>
   </main>
-  <footer>
-    social medias | endereço | mais
+  <footer class="flex justify-around p-20">
+    <a href="#">social medias</a>
+    <a href="#"> endereço</a> 
+    <a href="#"> mais</a>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>

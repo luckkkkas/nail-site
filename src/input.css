@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.one{
+    background-image: url('../assets/image/vitalii-khodzinskyi-886J0BeKzJY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 50% ;
+}
